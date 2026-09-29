@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="   Insert Information For  \n            New Place"
+        android:layout_marginBottom="20dp"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/et_place_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Place Name"
+        android:textSize="23dp"
+        />
+
+    <EditText
+        android:id="@+id/et_place_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Place Description"
+        android:textSize="23dp"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/place_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/myinsert"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_select_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Place"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
